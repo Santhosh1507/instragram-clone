@@ -5,6 +5,7 @@ import ProfilePosts from "../../components/Profile/ProfilePosts";
 import useGetUserProfileByUsername from "../../hooks/useGetUserProfileByUsername";
 import { useParams } from "react-router-dom";
 import { Link as RouterLink } from "react-router-dom";
+import React from "react";
 
 const ProfilePage = () => {
 	const { username } = useParams();
